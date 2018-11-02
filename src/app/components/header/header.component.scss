@@ -1,0 +1,19 @@
+@media screen and (min-width: 1088px) {
+  .soc-logo-center {
+    display: block !important;
+  }
+  .soc-logo-center .navbar-brand {
+    display: none;
+  }
+  #soc-navbar-menu {
+    width: 600px;
+    margin: 0 auto;
+  }
+  #soc-navbar-menu>div {
+    flex: 1;
+  }
+  #soc-navbar-menu>div>div {
+    // flex: 1;
+    justify-content: center;
+  }
+}
